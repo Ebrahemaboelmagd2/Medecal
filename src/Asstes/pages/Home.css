@@ -1,0 +1,111 @@
+header {
+    margin-top: 80px;
+    padding-left: 10px;
+    background-color: #fcfcfc;
+}
+@media (max-width:800px) {
+    header {
+        padding-left: -800px;   
+        padding: 0px;
+    }
+    header .row h2 {
+        font-size: 28px !important;
+        width: 350px !important;
+    }
+    header .row h5 {
+        font-size: 20px !important;
+        width: 165px !important;
+    }
+}
+@media (min-width:800px) and  (max-width:1500px) {
+    header {
+        padding: 0px;
+    }
+}
+header .row h5 {
+    color: var(--btn-color);    
+    margin: 40px 10px; 
+}
+header .row h2 {
+    color: #1f2278;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 30px;
+    width: 560px;
+}
+header button {
+    background-color: var(--orange-color) !important;
+    height: 60px;
+    width: 200px;
+    border: 1px solid var(--orange-color) !important;
+    border-radius: 5px !important;
+    margin-top: 20px;
+    transition:all .5s ease;
+
+}
+.container .row span {
+    display: block;
+    font-size: 120px;
+    color: #fff;
+    animation: move 1s infinite alternate;
+    -webkit-text-stroke: 2.5px var(--orange-color); 
+    -moz-text-stroke: 1px var(--orange-color); 
+    -o-text-stroke: 1px var(--orange-color); 
+    position: absolute;
+    left: 35%;
+    margin-top: 12px;
+}
+header button a {
+    color: #fff;
+    font-size: 18px;
+}
+header button:hover {
+    opacity: 0.6;
+}
+.headerbox {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin-left: 115px;
+}
+header .doc {
+    max-width: 100%;
+    width: 450px;
+    height: auto;
+    transition: 0.5s ease all;
+    animation: move 1s infinite alternate;
+    -webkit-animation: move 1s infinite alternate;
+    -moz-animation: move 1s infinite alternate;
+    -o-animation: move 1s infinite alternate;
+}
+@keyframes move {
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(-6px);}
+}
+@-webkit-keyframes move  {
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(-6px);}
+}
+@-moz-keyframes  move {
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(-6px);}
+}
+@-o-keyframes  move  {
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(-6px);}
+}
+.headerbox i {
+    color: var(--btn-color);
+    font-size: 60px;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    animation: move 1s infinite alternate;
+    transform: rotate(55deg) !important;
+    animation: move 1s infinite alternate;
+    -webkit-animation: move 1s infinite alternate;
+    -moz-animation: move 1s infinite alternate;
+    -o-animation: move 1s infinite alternate;
+}

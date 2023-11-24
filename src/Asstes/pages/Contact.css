@@ -1,0 +1,189 @@
+.contact-us {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 10px 60px 0 rgba(31,34,120,.1);
+    padding: 70px 50px 40px;
+    position: relative;
+    height: 792px;
+    width: 1200px;
+    margin: -99px auto;
+}
+.contact-us-parent {
+    display: flex !important;
+    width: 1200px;
+    height: auto;
+    flex-wrap: nowrap !important;
+    justify-content: space-between;
+}
+.contact-us-inheart {
+    display: inline-grid;
+    width: 490px !important;
+
+}
+.contact-us-inheart input {
+    border: 1px solid rgba(86,90,207,.3);
+    border-radius: 8px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    height: 60px;
+    width: 530px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.contact-us-inheart  textarea {
+    border: 1px solid rgba(86,90,207,.3);
+    border-radius: 8px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    height: 150px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.contact-us-inheart select {
+    border: 1px solid rgba(86,90,207,.3);
+    border-radius: 8px;
+    color: #000;
+    font-size: 16px;
+    width: 530px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.contact-us-inheart button {
+    width: 530px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    height: 54px;
+    background-color: #f17732;
+}
+
+.contact-us-inheart-1 {
+    width: 460px !important;
+    /* margin-left: 130px; */
+    height: 602px;
+    position: relative;
+
+}
+.contact-us-inheart-1-1 {
+    background-image: url(/src/images/pic-1.ad1ed7ee8284087fe9ee.jpg); 
+    width: 100%;
+    height: 100%;
+}
+.contact-us-inheart-1-2 {
+    background:#565acf;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 10;
+    width: 95%;
+    height: 100%;
+    top: 0;
+    color: white;
+    padding: 35px;
+}
+.contact-us-inheart-1-2 h5 {
+    font-size: 30px;
+    width: 306px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.contact-us-inheart-1-2 div {
+    display: flex;
+    width: 80%;
+    border-bottom: 2px solid hsla(0,0%,100%,.2);
+}
+.contact-us-inheart-1-2 div h3{
+    font-size: 18px;
+
+}
+form p {
+    color: red;
+}
+.contact-us-inheart-1-2 div i{
+    font-size: 30px;
+    margin-right: 23px;
+    margin-top: -2px;
+}
+.contact-us-inheart-1-2 p {
+    width: 190px;
+    margin: 23px 0px;
+    font-size: 15px;
+}
+.contact-us-inheart-1-2 p i{
+    padding: 11px;
+    font-size: 26px;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    margin-left: 7px;
+}
+@media (max-width:565px) {
+    .contact-us {
+        width: 100%;
+        height: auto;
+    }
+    .contact-us-parent {
+        display: block !important;
+        height: auto;
+        margin-left: -173px !important;
+        width: -90px;
+    }
+    .contact-us-inheart  textarea ,
+    .contact-us-inheart input ,
+    .contact-us-inheart button ,
+    .contact-us-inheart select {
+        width: 304px;
+    }   
+    .contact-us-inheart-1 {
+        margin: 35px 0px 0px -9px !important;
+        width: 28% !important;
+        border-radius: 50px !important;
+    }
+    .CONC {
+        margin: 130px 155px !important;
+    }
+}
+@media(min-width:566px) and (max-width:960px) {
+    .contact-us {
+        width: 100%;
+        height: auto;
+    }
+    .contact-us-parent {
+        display: block !important;
+        height: auto;
+    }
+    .contact-us-inheart {
+        margin: 0px -50px;
+    }
+    .contact-us-inheart-1  {
+        margin: 65px -50px !important;
+    }
+    .contact-us-inheart  textarea ,
+    .contact-us-inheart input ,
+    .contact-us-inheart button ,
+    .contact-us-inheart select {
+        width: 404px;
+    }
+    .CONC {
+        margin: 130px 155px !important;
+    }
+}
+@media(min-width:960px) and (max-width:1190px) {
+    .contact-us {
+        margin-top:0px;
+        height: auto;
+    }
+    .contact-us-parent {
+        display: block !important;
+        height: auto;
+        margin-left: 75px !important;
+    }
+    .contact-us-inheart-1  {
+        margin: 65px 62px !important;
+    }
+    .CONC {
+        margin: 130px 155px !important;
+    }   
+}

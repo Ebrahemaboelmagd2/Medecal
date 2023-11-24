@@ -1,0 +1,224 @@
+main .container1 {
+    margin-top: 50px !important;
+    display: flex;
+}
+main img {
+
+}
+.images {
+    display: flex;
+    position: relative;
+}
+.images i {
+    font-size: 76px;
+    position: absolute;
+    top: 113px;
+    left: -125px;
+    z-index: 0;
+    color: var(--btn-color);
+    animation: move 1s infinite alternate;
+    transform: rotateZ(-28deg);
+}
+@keyframes move {
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(-6px);}
+}   
+.images::after {
+    background-color: #f17732;
+    border-radius: 15px;
+    content: "";
+    height: 50px;
+    left: 37%;
+    position: absolute;
+    top: 53%;
+    transform: rotate(45deg);
+    width: 50px;
+}
+main .pic1 {
+    width: 250px;
+    border-radius: 75px;
+    border-top-left-radius: 0px;
+    margin-top: 65px;
+    margin-left: -66px;
+}
+main .pic3 {
+    width: 300px;
+    border-radius: 75px;
+    border-top-right-radius: 0px;
+    margin-left: -60px;
+}
+@media (max-width:555px) {
+    main .container1{
+        display: block;
+        margin: 0px !important;
+    }
+    .pic1 {
+        width: 205px !important;
+        margin-left: -5px !important;
+    }
+    .pic2 {
+        width: 205px !important;
+        margin-top: 45px !important;
+    }
+    .pic3 {
+        width: 205px !important;
+    }
+    .A20 {
+        width: 215px !important;
+    }
+    .info p {
+        width: 386px !important;
+        font-size: 20px !important;
+    }
+    .info h6 {
+        width: 386px !important;
+        font-size: 20px !important;
+    }
+}
+@media (min-width:755px) and (max-width:1198px) {
+    main .container1 {
+        margin-left: 285px;
+        display: block;
+    }
+}
+@media (max-width:1170px) {
+    main .container1{
+        display: block;
+        margin: 130px 155px;
+    }
+    .images {
+        margin-bottom: 90px;
+    }
+    .pic3 {
+        width: 300px;
+        border-radius: 75px;
+        border-top-right-radius: 0px;
+        margin-left: -20px !important;
+    }
+}
+@media (min-width:1170px) and (max-width:1384px) {
+    .pic1 {
+        
+    }
+    .pic2 {
+
+    }
+    .pic3 {
+        width: 300px;
+        border-radius: 75px;
+        border-top-right-radius: 0px;
+        margin-left: -20px !important;
+        
+    }
+}
+main .pic2 {
+    width: 200px;
+    border-radius: 75px;
+    border-bottom-left-radius: 0px;
+    margin: 10px -21px;
+}
+main .A20 {
+    width: 250px;
+    border-radius: 75px;
+    border-bottom-right-radius: 0;
+    background-color: #e6e7ff;
+    height: 238px;
+    margin-top: 17px;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 150px;
+    font-weight: 700;
+    color: var(--btn-color) !important;
+    margin-left: -25px;
+    position: relative;
+    -webkit-text-stroke: 0px var(--orange-color) !important;
+    animation: move 1s infinite alternate;
+}
+main .A20::after {
+    border: 2px solid #565acf;
+    border-radius: 60px 60px 0 60px;
+    content: "";
+    height: 100%;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    z-index: 1;
+}
+main .A20 h5 {
+    font-weight: 900;
+    color: #1f2278;
+}
+main .info {
+    margin-top: 30px;
+}
+main .info h4 {
+    color: var(--orange-color);
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding: 3px 15px;
+}
+main .info p {
+    color: #1f2278;
+    font-family: Montserrat,sans-serif;
+    line-height: 1.3;
+    font-size: 36px;
+    font-weight: 800;
+    width: 485px;
+}
+main .info h6 {
+    width: 550px;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+    opacity: 0.8;
+}
+.Emergency {
+    display: flex;
+    margin-top: 40px;
+}
+.Emergency div div {
+    border: 1px solid #ecfcff;
+    border-radius: 10px;
+    width: 275px;
+    margin: 8px;
+    padding: 12px;
+    height: 65px;
+    line-height: 2.5;
+    box-shadow: 0 5px 30px 0 rgba(31,34,120,.08);
+    margin-bottom: 35px;
+}
+.Emergency div div i {
+    background-color: #b2f0fb;
+    padding: 24px;
+    margin: -34px 30px 0px -12px;
+    border-radius: 12px 50px 50px 12px;
+    font-size: 19px;
+}
+.info button {
+    box-shadow: 0 5px 20px 0 rgba(86,90,207,.3);
+    background-color: #565acf;
+    border-radius: 8px;
+    border-width: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: all .5s;
+    color: white;
+    border: none;
+    margin-left: 11px;
+    width: 160px;
+    height: 50px;
+}
+.info button:hover {
+    background-color: #272ba0;
+}
+@media (max-width:1170px) {
+    .Emergency {
+        display: block;
+    }
+}
+
+
