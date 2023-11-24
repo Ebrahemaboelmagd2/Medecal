@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Medecal/static/css/main.242167d9.css",
+    "main.js": "/Medecal/static/js/main.5da45111.js",
+    "static/js/787.4c6a9b29.chunk.js": "/Medecal/static/js/787.4c6a9b29.chunk.js",
+    "static/media/doctor.png": "/Medecal/static/media/doctor.7c2bc96d67d3eba1d64a.7c2bc96d67d3eba1d64a.png",
+    "static/media/pic-2.jpg": "/Medecal/static/media/pic-2.0593bc2fd8a13cf8c19f.0593bc2fd8a13cf8c19f.jpg",
+    "static/media/pic-1.jpg": "/Medecal/static/media/pic-1.ad1ed7ee8284087fe9ee.ad1ed7ee8284087fe9ee.jpg",
+    "static/media/pic-3.jpg": "/Medecal/static/media/pic-3.fa689b1037dbf69567a3.fa689b1037dbf69567a3.jpg",
+    "index.html": "/Medecal/index.html",
+    "main.242167d9.css.map": "/Medecal/static/css/main.242167d9.css.map",
+    "main.5da45111.js.map": "/Medecal/static/js/main.5da45111.js.map",
+    "787.4c6a9b29.chunk.js.map": "/Medecal/static/js/787.4c6a9b29.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.242167d9.css",
+    "static/js/main.5da45111.js"
+  ]
+}
